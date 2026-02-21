@@ -1,0 +1,12 @@
+mcp>=1.0.0
+TTS>=0.22.0
+minio>=7.2.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+# Pin transformers to version compatible with Coqui TTS (BeamSearchScorer issue)
+transformers>=4.33.0,<4.46.0
+starlette>=0.36.0
+uvicorn[standard]>=0.27.0
+sse-starlette>=1.8.0
