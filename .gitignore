@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+.vscode
+.cursor
+.idea
+.windsurf
+node_modules/
+dist
+build
